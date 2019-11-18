@@ -1,0 +1,198 @@
+body {
+	font-family: 'Raleway', sans-serif;
+background-color: #1fe1d9; /* light-green */
+color: #333;
+font-size: 16px;
+}
+
+
+
+.navbar { background-color: #4b6857 !important; } .navbar .navbar-text { color: #62787d !important; } .navbar .navbar-text a { color: #4b6857 !important; } .navbar .navbar-text a:hover, .navbar .navbar-text a:focus { color: #4b6857 !important; }
+
+
+
+h1,
+h2 {
+    font-family: 'Raleway', Arial, sans-serif;
+    font-weight: 800;
+}
+
+#jambo {
+background-color: #ffe1bf;  /* light-orange */
+margin-top: 15px;
+padding: 15px 10px 100px;
+} 
+
+.jumbotron img {
+border-radius: 7px;
+margin-bottom: 30px;
+border: 2px solid #999;
+}
+
+.jumbotron .far-waawayn {
+font-size: 1.3em;
+font-weight: 400;
+}
+
+.dhexdhexaad {
+padding: 45px 20px 20px;
+}
+
+h1, h2, h4 {
+text-align: center;
+margin-top: 15px;
+letter-spacing: -.04em;
+line-height: .8;
+color: #333;
+}
+
+h1 {
+	font-family: 'Teko', sans-serif;
+	font-weight: 900;
+	font-size: 6em;
+margin: 45px 0 35px;
+text-shadow: 2px 2px 0px #42A9DF;
+text-transform: uppercase;
+}
+
+a:hover, a:visited {
+text-decoration: none;
+} 
+
+a:visited {
+background-color: #f80;
+}
+
+#jambo .sawir {
+width: 100%;
+border-radius: 7px;
+margin-bottom: 30px;
+border: 2px solid #999;
+}
+
+/* End Jambo */
+
+
+/* Sections */
+
+.container-fluid.three-sections {
+background-color: #ddefd2;
+width: 100%;
+padding: 60px 20px 30px;
+margin-top: 30px;
+}
+
+.three-sections .col-md-4 {
+margin-bottom: 30px;
+}
+
+h2 + h4 {
+margin: 20px 0px 20px;
+}
+
+h4 + p + p + hr {
+width: 80%;
+border: 1px solid #000;
+margin-top: 40px;
+}
+
+/* End Sections */
+
+
+/* footer */
+
+.dabo {
+background-color: #3f3f3f;
+font-size: .8em;
+font-weight: 500;
+}
+
+.dabo p  a {
+line-height: 1.8;
+color: #fff;
+}
+
+.dabo p a:hover, .dabo p a:focus {
+background-color: #6fbc44;
+}
+
+.dabo .row .col-sm-auto {
+margin: 15px auto 65px;
+}
+
+.dabo .row .col-sm-auto p:nth-child(1) {
+font-size: 1.3em;
+}
+
+.dabo .ciwan-dabo {
+padding: 65px 0 25px;
+font-size: 1.4em;
+color: #bebebe;
+font-weight: 600;
+font-style: italic;
+}
+
+/* Extra small (xs) devices (portrait phones, less than 576px) */
+
+@media (max-width: 575.98px) {
+
+h4 + p {
+text-align: center;
+}
+
+.maqaal + p { /* 3 badhan */
+text-align: center;
+}
+     }
+
+/* Small (sm) devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+     }
+
+
+/* Medium (md) devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+
+#jambo .sawir {
+background: url('../images/jambo/720.jpg') no-repeat;
+height: 405px;
+
+} 
+
+.dhexdhexaad > p {
+text-align: center;
+width: 65%;
+margin: 20px auto 20px;
+}
+
+     }
+
+
+/* Large (lg) devices  (desktops, 992px and up) */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+ 
+#jambo .sawir {
+background: url('../images/jambo/630.jpg') no-repeat;
+height: 354px;
+
+} 
+
+     }
+
+
+/* Extra large (xl) devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+
+
+#jambo .sawir {
+background: url('../images/jambo/750.jpg') no-repeat;
+height: 422px;
+
+}
+
+     }
